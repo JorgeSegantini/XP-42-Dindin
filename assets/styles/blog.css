@@ -1,0 +1,64 @@
+main .container {
+    justify-content: space-around;
+    flex-flow: column;
+}
+
+.hero{
+    background: url('../images/ilustra-blog.png ') 80% 20% no-repeat;
+    padding: 90px 680px 90px 0px;
+}
+
+.hero h1 {
+    color: #009688;
+    font-size: 47px;
+    line-height: 54px;
+    font-weight: 700;
+    width: 512px;
+    margin: 0px 0 38px 80px;
+}
+
+.hero p {
+    color: #555555;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 400;
+    width: 461px;
+    margin: 0 0 38px 80px;
+}
+.lista-posts {
+    background: #E5E5E5;
+    padding: 110px 0 170px 0;
+}
+
+.lista-posts .posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0 60px 135px 60px;
+}
+
+.lista-posts .post img {
+    width: 518px;
+    max-height: 193px;
+    margin: 0 65px 19px 65px;
+}
+
+.lista-posts .post h3 a {
+    width: 455px;
+    text-decoration: none;
+    color: #ff4081;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 31px;
+    margin: 0 65px 19px 65px;
+}
+
+.lista-posts .post p {
+    width: 516px;
+    color: #000000;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    max-width: 319px;
+    margin: 0 65px 19px 65px;
+}

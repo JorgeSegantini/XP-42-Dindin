@@ -1,0 +1,66 @@
+main .container {
+    justify-content: space-around;
+    flex-flow: column;
+}
+
+.hero {
+    background: url('../images/ilustra-poupando.png') 70% 30% no-repeat;
+    padding: 90px 0px 90px 180px;
+}
+
+.hero h1 {
+    color: #FF4081;
+    font-size: 55px;
+    line-height: 63px;
+    font-weight: 700;
+    width: 512px;
+    
+}
+
+.hero p {
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 300;
+    width: 461px;
+    
+}
+
+.lista-aulas {
+    background: #f6f6f6;
+    padding: 78px 0;  
+}
+
+
+.lista-aulas .curso {    
+    display: flex;
+    margin: 0 0 86px 0px;
+}
+
+.lista-aulas .curso img{
+    margin: 75px 0px 0px 163px;
+    
+}
+
+.lista-aulas .curso h3 {
+    width: 512px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #FF4081;
+    margin:  0 0 0 50px;    
+}
+
+.lista-aulas .curso p {
+    width: 501;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 23px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    margin: 20px 0px 0px 0px;
+}
+
+hr {
+    
+}

@@ -1,0 +1,107 @@
+main .container {
+    justify-content: space-around;
+    flex-flow: column;
+}
+body {    
+    padding: 50px 50px 50px 0;
+}
+.hero{
+    padding: 50px 50px 50px 0;
+    margin: 0 204px;
+}
+.titulo p { color: #9d9d9d;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0 610px;
+
+
+}
+.titulo h1{
+    color:  #FF4081;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    padding: 90px 310px 0;
+
+}
+body h4 {
+    color:  #009688;
+    width: 1032px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;    
+    
+    margin: 15px 204px;
+}
+
+body h5{
+    width: 1032px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0 204px;
+}
+
+h6 {
+    background: #f6f6f6;
+    color:  #FF4081;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    
+}
+.lista-cursos {
+    display: flex;
+    justify-content: space-between;
+    background: #F6F6F6;
+    padding: 117px 0;
+
+}
+.lista-cursos .curso {   
+    width: 344px;
+    text-align: center;
+    margin: 0 60px 0 60px;
+}
+
+.lista-cursos .curso img {
+    max-height: 270px;
+    margin-bottom: 45px;
+
+}
+.lista-cursos .curso h1 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #FF4081;
+    margin-bottom: 23px;
+
+}
+
+.lista-cursos .curso h3 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #FF4081;
+    margin-bottom: 23px;
+}
+
+.lista-cursos .curso p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 26px;
+}
+
+.lista-cursos .curso a {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    color: white;
+    background: #FF4081;
+    border: none;
+    border-radius: 62px;
+    padding: 12px 52px;
+    text-decoration: none;
+}
